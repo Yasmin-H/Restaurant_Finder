@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
     <h1>JustEat Restaurant Finder</h1>
-    <p>Find any restaurant in your local area !</p>
+    <p><em>Find any restaurant in your local area !</em></p>
     <RestaurantContainer />
     </div>
   );
