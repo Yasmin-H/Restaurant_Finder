@@ -26,6 +26,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Component Diagram 
 
+![Component Diagram ](https://github.com/Yasmin-H/Restaurant_Finder/blob/ba62c9f769804311448d836641aa30295805bb00/src/Restaurant_Finder_Diagram.png)
+
+
 ## Assumptions 
 
 ## Challenges 
