@@ -1,21 +1,20 @@
 import React from 'react'
 import Restaurant from './Restaurant';
 
-export default function RestaurantList({restaurant}) {
+export default function RestaurantList({restaurants}) {
 
-    if(!restaurant || restaurant.length === 0) {
-        return <div>No restaurant found.</div>;
-    }
+const limitedRestaurants = restaurants.slice(0,10);
 
-const RestaurantComponents = restaurant.map(restaurant => {
+const RestaurantComponents = limitedRestaurants.map(restaurant => {
     return <Restaurant key={restaurant.id} name={restaurant.name} cuisines={restaurant.cuisines} rating={restaurant.rating} address={restaurant.address} />
 })
 
   return (
     <div>
-      <p>Hello from RestaurantList</p>
-      <Restaurant />
-      <Restaurant />
+      <h3>List of Restaurants</h3>
+      <hr />
+      {RestaurantComponents}
+      
     </div>
   )
 }
