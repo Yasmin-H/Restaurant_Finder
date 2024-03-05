@@ -2,7 +2,7 @@
 
 ### TABLE OF CONTENTS :
 * Installation Guide
-* *Diagrams
+* Diagrams
 * Any improvements I'd make to my solution
 
 ## Installation Guide 
@@ -56,4 +56,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 * Investigating the API in more detail to see if I could fetch the API directly from the browser (URL)
 * Investing more time in the UI (User Interface)  - making it more visually appealing, and responsive and incorporating media queries
-* *Sort the restaurants by rating or how close they are to the Postcode
+* Sort the restaurants by rating or how close they are to the Postcode
