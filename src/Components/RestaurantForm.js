@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 
-export default function RestaurantForm() {
+export default function RestaurantForm( {onSubmit}) {
 
 const [postcode , setPostcode] = useState('');
 
 const handleSubmit = (event) => {
     event.preventDefault();
-    onsubmit(postcode);
+    onSubmit(postcode);
 };
 
   return (

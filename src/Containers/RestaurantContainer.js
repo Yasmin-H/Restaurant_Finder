@@ -20,13 +20,14 @@ export default function RestaurantContainer() {
         }
     };
 
-    const handleFormSubmit = (postcode) => {
+    const handleSubmit = (postcode) => {
         fetchRestaurants(postcode);
-    };
+      };
+
 
     return (
         <div>
-            <RestaurantForm onSubmit={handleFormSubmit} />
+            <RestaurantForm onSubmit={handleSubmit} />
             <RestaurantList restaurants={restaurants} />
         </div>
     );
