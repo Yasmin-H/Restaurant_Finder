@@ -21,7 +21,7 @@ https://github.com/Yasmin-H/_RestaurantFinder_BackEnd
 * Installation instructions:
 	* Git clone from the server side API Repo.
 	* You can type in `http://localhost:8080/restaurants/EC4M7RF
-` in your browser or Postman, for example, to see the  data. More details can be found in the backend repo
+` in your browser or Postman, for example, to see the  data where'EC4M7RF' can be replaced with any UK Postcode. More details can be found in the backend repo
 	
 
 ## Client-side Instructions 
@@ -34,11 +34,9 @@ The client-side server can be obtained with the following information:
     * npm i (installs basic node libraries)
     
 
-# Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
