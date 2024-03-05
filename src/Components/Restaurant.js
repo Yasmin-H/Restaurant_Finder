@@ -9,9 +9,6 @@ export default function Restaurant({ name, cuisines, rating, address }) {
   const { city, firstLine, postalCode } = address;
 
 
-
-  
-  
   return (
     <div>
       <h4>{name}</h4>

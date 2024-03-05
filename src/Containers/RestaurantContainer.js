@@ -26,7 +26,6 @@ export default function RestaurantContainer() {
 
     return (
         <div>
-            <p>Hello from RestaurantContainer</p>
             <RestaurantForm onSubmit={handleFormSubmit} />
             <RestaurantList restaurants={restaurants} />
         </div>
