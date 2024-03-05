@@ -3,10 +3,36 @@
 ### TABLE OF CONTENTS :
 * Installation Guide
 * *Diagrams
-* Assumptions that were not clear to me
 * Any improvements I'd make to my solution
 
 ## Installation Guide 
+
+
+
+### Server Side API instructions
+The server-side api can be found here:
+https://github.com/Yasmin-H/_RestaurantFinder_BackEnd
+<em>more explanation in the repo but I decided to set up a proxy server on my backend that forwards requests to the JustEat API.</em>
+
+* Software needed to run the API: 
+	* IntelliJ and Java (version 17)
+	* Postman
+
+* Installation instructions:
+	* Git clone from the server side API Repo.
+	* You can type in `http://localhost:8080/restaurants/EC4M7RF
+` in your browser or Postman, for example, to see the  data. More details can be found in the backend repo
+	
+
+## Client-side Instructions 
+The client-side server can be obtained with the following information:
+
+* Ensure that the following software	has been downloaded:
+   * Visual Studio Code
+
+* Libraries installation
+    * npm i (installs basic node libraries)
+    
 
 # Getting Started with Create React App
 
@@ -21,14 +47,14 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
- Ensure that the following software	has been downloaded:
-   * Visual Studio Code
 
 ## Component Diagram 
 
 ![Component Diagram ](https://github.com/Yasmin-H/Restaurant_Finder/blob/ba62c9f769804311448d836641aa30295805bb00/src/Restaurant_Finder_Diagram.png)
 
 
-## Assumptions 
 
-## Challenges 
+## Improvements  
+
+* Investigating the API in more detail to see if I could fetch the API directly from the browser (URL)
+* Investing more time in the UI (User Interface)  - making it more visually appealing, responsive and incorporating media queries 
