@@ -55,4 +55,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ## Improvements  
 
 * Investigating the API in more detail to see if I could fetch the API directly from the browser (URL)
-* Investing more time in the UI (User Interface)  - making it more visually appealing, responsive and incorporating media queries 
+* Investing more time in the UI (User Interface)  - making it more visually appealing, and responsive and incorporating media queries
+* *Sort the restaurants by rating or how close they are to the Postcode
