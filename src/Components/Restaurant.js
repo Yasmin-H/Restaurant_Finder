@@ -10,12 +10,12 @@ export default function Restaurant({ name, cuisines, rating, address }) {
 
 
   return (
-    <div>
+    <div className='EachRestaurant'>
       <h4>{name}</h4>
       <p><strong>Rating:</strong> {starRating} ({count} reviews)</p>
       <p><strong>Address:</strong> {firstLine}, {city}, {postalCode}</p>
       <p><strong>Cuisines:</strong> {cuisineNames.join(', ')} </p>
-     <hr />
+
     </div>
   )
 }

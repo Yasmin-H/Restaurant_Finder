@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import RestaurantForm from '../Components/RestaurantForm';
 import RestaurantList from '../Components/RestaurantList';
+import RestaurantContainerCSS from '/Users/yasminhaidar/JustEat/just_eat_assignment/src/Containers/RestaurantContainerCSS.css';
 
 export default function RestaurantContainer() {
     const [restaurants, setRestaurants] = useState([]);
@@ -26,9 +27,15 @@ export default function RestaurantContainer() {
 
 
     return (
-        <div>
+        <div className="container">
+            <h1 className="title">JustEat Restaurant Finder</h1>
+             <p className="description"><em>Find any restaurant in your local area !</em></p>
+             <div className="description">
             <RestaurantForm onSubmit={handleSubmit} />
+            </div>
+            <div className='restaurant-list'>
             <RestaurantList restaurants={restaurants} />
+            </div>
         </div>
     );
 }

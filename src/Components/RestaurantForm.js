@@ -11,10 +11,10 @@ const handleSubmit = (event) => {
 
   return (
     <div>
-      <h3>Find Restaurant by Postcode</h3>
+      <h3 className='title'>Find Restaurant by Postcode</h3>
       <form onSubmit={handleSubmit}>
         <label>
-            Postcode:
+          Postcode: 
             <input type="text" value={postcode} onChange={(event) => setPostcode(event.target.value)} />
         </label>
         <button type="submit">Search</button>
