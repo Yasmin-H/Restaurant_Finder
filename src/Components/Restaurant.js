@@ -1,4 +1,5 @@
 import React from 'react'
+import main from '../Components/main.css';
 
 export default function Restaurant({ name, cuisines, rating, address }) {
   

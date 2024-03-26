@@ -1,5 +1,6 @@
 import React from 'react'
 import Restaurant from './Restaurant';
+import main from '../Components/main.css';
 
 export default function RestaurantList({restaurants}) {
 

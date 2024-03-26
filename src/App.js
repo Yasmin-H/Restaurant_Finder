@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import RestaurantContainer from './Containers/RestaurantContainer';
-import RestaurantForm from './Components/RestaurantForm';
-import RestaurantContainerCSS from '/Users/yasminhaidar/JustEat/just_eat_assignment/src/Containers/RestaurantContainerCSS.css';
+import RestaurantForm from './Components/RestaurantForm';;
 
 function App() {
   return (

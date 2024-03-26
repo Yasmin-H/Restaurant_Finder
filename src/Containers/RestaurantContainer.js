@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import RestaurantForm from '../Components/RestaurantForm';
 import RestaurantList from '../Components/RestaurantList';
-import RestaurantContainerCSS from '/Users/yasminhaidar/JustEat/just_eat_assignment/src/Containers/RestaurantContainerCSS.css';
+import main from '../Components/main.css';
 
 export default function RestaurantContainer() {
     const [restaurants, setRestaurants] = useState([]);
